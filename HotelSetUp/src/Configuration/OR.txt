@@ -1,0 +1,175 @@
+//-------------HMS Admin Elements----------------
+HMSAdmine.HotelID = .//input[@id='hotelCodeId']
+HMSAdmine.EmailID = .//input[@id='userNameId']
+HMSAdmine.Pwd = .//input[@id='passwordId']
+HMSAdmine.Captcha = .//
+HMSAdmine.Login = .//input[@name='Submit52']
+HMSAdmine.Registrationlist = .//td//a[text()='Registration List']
+HMSAdmine.EnterHotelID = .//input[@id='searchHid']
+HMSAdmine.SearchHotel = .//input[@name='Submit']
+HMSAdmine.AdminLink = .//td[@id='registrationView']//tbody/tr[2]/td[15]/a
+HMSAdmine.Logout = .//a[text()='Logout']
+HMSAdmine.HotelName = .//td[@id='registrationView']//tr[2]/td[4]
+
+
+//-------------Admin Console Home Page--------------------->>>>
+Admin.Logout = .//a[text()='| Logout']
+
+//-------------Admin Department--------------------->>>>>
+Admin.Departments = .//td[@class='line-bt']//a[text()='Departments']
+Admin.Department.AddDepartment = .//div[@id='listing-icons']//li[3]/a[2]
+Admin.Department.DepartmentTitle = .//input[@name='deptName']
+Admin.Department.DepartmentShortName = .//input[@name='shortName']
+Admin.Department.DepartmentDescription = .//td/textarea[@name='description']
+Admin.Department.DepartmentSave = .//td/input[@name='Submit5']
+Admin.Department.DepartmentList = .//div[@id='search_new']//td/a[2]
+
+//---------Source Of Business------------------------>>>>
+Admin.SourceOfBusiness = .//td//a[text()='Source of Business']
+Admin.SourceOfBusiness.AddSourceOfBusiness = .//div[@id='listing-icons']//li[3]/a[2]
+Admin.SourceOfBusiness.SourceOfBusinessTitle = .//input[@name='title']
+Admin.SourceOfBusiness.Description = .//textarea[@name='description']
+Admin.SourceOfBusiness.Save = .//td/input[@name='Submit5']
+Admin.SourceOfBusiness.SourceOfBusinessList = .//div[@id='search_new']//td/a[2]
+
+//<<----------Hotel Information--------------------->>
+Admin.HotelInformation = .//tr[2]/td//a[text()='Hotel Information']
+Admin.Address = .//input[@name='address1']
+Admin.Country=.//select[@name='countryId']
+Admin.State=.//select[@name='stateId']
+Admin.City=.//input[@name='city']
+Admin.Zipcode=.//input[@name='zipCode']
+Admin.Phone=.//input[@name='phoneNo']
+Admin.Main=.//tr[2]/td/a[text()='Main']
+
+//<<----------------------Users----------------------->>
+Admin.Users = .//td//a[text()='Users']
+Admin.Users.AddNewUser = .//div[@id='heading_new']//li[3]/a[2]
+Admin.Users.EmployeeID = .//input[@name='employeeId']
+Admin.Users.FirstName = .//input[@name='fName']
+Admin.Users.LastName = .//input[@name='lName']
+Admin.Users.Address = .//input[@name='address1']
+Admin.Users.Country = .//select[@name='countryId']
+Admin.Users.State = .//select[@id='stateId']
+Admin.Users.City = .//input[@name='city']
+Admin.Users.ZipCode = .//input[@name='zipCode']
+Admin.Users.PhoneNo = .//input[@name='phoneNo']
+Admin.Users.Gender = .//select[@name='gender']
+Admin.Users.IDType = .//select[@id='identityType']
+Admin.Users.ID = .//input[@id='identityValue']
+Admin.Users.Department = .//select[@id='departmentId']
+Admin.Users.Counter = .//select[@id='mainCounter']
+Admin.Users.Counter.Arrow = .//input[@name='Submit2']
+Admin.Users.Designation = .//input[@name='designation']
+Admin.Users.EmailAddress = .//input[@name='email']
+Admin.Users.Password = .//input[@name='password']
+Admin.Users.ConfirmPassword = .//input[@name='confirm_password']
+Admin.Users.UserType = .//select[@id='userTypeId']
+Admin.Users.ViewEditReportPermission = .//a[contains(text(),'View/Edit Report permission')]
+Admin.Users.SelectAll = .//input[@id='chkAll']
+Admin.Users.Save = .//td/input[@name='save']
+Admin.Users.SaveUser = .//input[@name='Submit4']
+Admin.Users.SavedSuccessfully = .//td[@class='container_box']/table//tr[4]
+Admin.Users.ErrorInSave=.//form[@id='frmuser']//table/tbody/tr[2]/td
+Admin.Users.UserListLink=.//td[@class='breadcurms_new']/a[2]
+Admin.Users.TxtbxSearchUser = .//input[@name='searchTitle']
+Admin.Users.BtnSearch = .//input[@name='Submit']
+Admin.User.ChkbxUser = .//input[@id='id_1']
+Admin.User.UserEmail = .//table//tr[2]/td[5]
+Admin.User.DeleteUser = .//div[@id='listing-icons']//li[2]//a[2]
+Admin.User.DeleteMessage = .//td[@class='container_box']/table//tr[4]/td
+
+//<<---------------Room Taxes--------------------//
+Admin.Roomtax = .//td[@class='line-rt-bt']//tr[2]/td/a[8]
+Admin.Roomtax.AddTax = .//div[@id='listing-icons']/ul/li[4]/a[2]
+Admin.Roomtax.TaxTitle = .//input[@id='taxNameMulName_0']
+Admin.Roomtax.TaxID = .//input[@id='taxShortName']
+Admin.Roomtax.AddAccountCode = .//a[@id='addNewAccountCode']
+Admin.Roomtax.AccountName = .//input[@id='title']
+Admin.Roomtax.AccountCode = .//input[@id='accountCode']
+Admin.Roomtax.SaveAccountCode=.//div[@class='ui-dialog-buttonset']/button/span
+Admin.Roomtax.ErrorMessage1 = .//span[@id='errorMsg']
+Admin.Roomtax.CancelAccountCode = .//div[@class='ui-dialog-buttonset']/button[2]/span
+
+Admin.Roomtax.Description = .//textarea[@id='descriptionMulDes_0']
+Admin.Roomtax.TaxTypePercent = .//input[@id='slabChargeTypePV']
+Admin.Roomtax.TaxValue = .//input[@id='woSlabTaxAmount']
+Admin.Roomtax.SelectTaxOnPercentage = .//select[@id='slabTaxAppliedOnPV']
+Admin.Roomtax.TaxOnTariffValue = .TC
+Admin.Roomtax.TaxOnTackrateValue = .RR
+Admin.Roomtax.Save = .//td[@class='comments']//input[@name='Submit5']
+Admin.Roomtax.Cancel = .//td[@class='comments']//input[2][@name='Submit52']
+Admin.Roomtax.TaxTypeFixed = .//input[@id='slabChargeTypeFV']
+Admin.Roomtax.SelectTaxOnFixed = .//select[@id='slabTaxAppliedOnFV']
+Admin.Roomtax.TaxPerReservationValue = .PR
+Admin.Roomtax.TaxPerNighSessionValue = .PN
+Admin.Roomtax.TaxPerPersionPerNight = .NI
+Admin.Roomtax.LinkRoomTaxList = .//a[text()='Room Tax List ']
+Admin.Roomtax.SuccessMessage = .//div[@class='error_new']
+Admin.Roomtax.ErrorMessage2 = .//td[@class='error']
+Admin.Roomtax.RoomTaxListLink = .//td[@class='breadcurms_new']/a[2]
+
+--------------------------------Slab Taxes--------------------------
+Admin.Roomtax.AddSlab = .//a[text()='Add Slab(s)']
+Admin.Roomtax.AddSlab.SlabCharge1 =.//input[@id='slbMinAmount_1'] 
+Admin.Roomtax.AddSlab.SlabTax1 = .//input[@id='slbTaxAmount_1']
+Admin.Roomtax.AddSlab.SlabCharge2 =.//input[@id='slbMinAmount_2']
+Admin.Roomtax.AddSlab.SlabTax2 = .//input[@id='slbTaxAmount_2']
+Admin.Roomtax.AddSlab.SlabCharge3 =.//input[@id='slbMinAmount_3']
+Admin.Roomtax.AddSlab.SlabTax3 = .//input[@id='slbTaxAmount_3']
+Admin.Roomtax.AddSlab.SlabTax4 = .//input[@id='slbTaxAmount_4']
+Admin.Roomtax.SlabActivationDateCalendar = //img[@id='showCalFrom']
+Admin.Roomtax.SlabActivationDateCalendarID =cal1
+Admin.Roomtax.SlabActivationDateCalendar.MonthYear = .//div[@id='calFromContainer']/table//div/a[2]
+Admin.Roomtax.SlabActivationDateCalendar.MonthYear.monthDropDown = .//select[@id='calFromContainer_nav_month']
+Admin.Roomtax.SlabActivationDateCalendar.MonthYear.yearTextBox = .//input[@id='calFromContainer_nav_year']
+Admin.Roomtax.SlabActivationDateCalendar.MonthYear.OkButton = .//button[@id='calFromContainer_nav_submit']
+
+---------------------------------Edit Slab tax----------------------
+Admin.Roomtax.FindAllTaxesName = .//td[@class='padingtd']/table/tbody/tr
+Admin.Roomtax.FindAllTaxesName.EditSlab = .//a[@id='slabLink_1']
+
+
+<<----------------------------PayTypes----------------------------------------->>
+Admin.PayTypes = .//td[@class='line-bt']//tr[2]/td/a[13]
+Admin.PayTypes.AddAPayType = .//div[@id='listing-icons']//li[3]/a[2]
+Admin.PayTypes.PayType = .//input[@id='titBoxId']
+Admin.PayTypes.ShortName = .//input[@id='payShortName']
+Admin.PayTypes.AddAccountCode = .//a[@id='addNewAccountCode']
+Admin.PayTypes.ErrorMessage1 = .//span[@id='errorMsg']
+Admin.PayTypes.AccountName= .//input[@id='title']
+Admin.PayTypes.AccountCode= .//input[@id='accountCode']
+Admin.PayTypes.SaveAccountCode=.//div[@class='ui-dialog-buttonset']/button/span
+Admin.PayTypes.CancelAccountCode = .//div[@class='ui-dialog-buttonset']/button[2]/span
+Admin.PayTypes.PaymentMode = .//select[@id='paymentModeId']
+Admin.PayTypes.Description = .//td[@class='comments']/textarea
+Admin.PayTypes.Save = .//td[@class='comments']//input[@name='Submit5']
+Admin.PayTypes.Cancel = .//td[@class='comments']//input[2][@name='Submit52']
+Admin.PayTypes.SaveSuccessMessage = .//form[@name='frmListView']//table//tr[2]/td
+Admin.PayTypes.ErrorMessage2 = .//td[@class='error']
+Admin.PayTypes.PayTypeListLink = .//div[@id='search_new']//td/a[2]
+
+<<------------------Refresh Allotments---------------------------------------->>
+Admin.OthersGDSPackages = .//td[@class='line-rt-bt']//tr[2]/td/a[12]
+Admin.OthersGDSPackages11 = .//table[@class='gray-text']//tr[2]/td[@class='line-rt-bt']//tr[2]/td/a[12]
+Admin.OthersGDSPackages.ManageAllotments11111 = .//tr[@id='row_441']/td[4]/a
+Admin.OthersGDSPackages.ManageAllotments = .//a[text()='Manage Allotments']
+Admin.OthersGDSPackages.ManageAllotments.MasterCheckBox = .//input[@id='chkRoomType']
+Admin.OthersGDSPackages.ManageAllotments.AddEditAllotments = .//input[@id='btnAddEditAllotment']
+Admin.OthersGDSPackages.ManageAllotments.CalFromDate = .//img[@id='showCalFrom']
+Admin.OthersGDSPackages.ManageAllotments.CalToDate = .//img[@id='showCalTo']
+Admin.OthersGDSPackages.ManageAllotments.CalFromDate.DateArea = .//div[@id='calFromContainer']
+Admin.OthersGDSPackages.ManageAllotments.CalFromDate.DateArea11111 = .//table[@id='cal1']//tbody[@class='m5 calbody']
+Admin.OthersGDSPackages.ManageAllotments.CalToDate.DateArea = .//div[@id='calToContainer']
+Admin.OthersGDSPackages.ManageAllotments.CalToDate.DateArea111 = .//table[@id='calTo']//tbody
+Admin.OthersGDSPackages.ManageAllotments.CalToDate.MonthYearOnCal = .//table[@id='calTo']//div[@class='calheader']/a[2]
+Admin.OthersGDSPackages.ManageAllotments.CalToDate.SelectMonthDrpDwn = .//div[@class='yui-cal-nav']//select[@id='calToContainer_nav_month']
+Admin.OthersGDSPackages.ManageAllotments.CalToDate.TxtBxYear = .//div[@class='yui-cal-nav']/div[2]/input[@id='calToContainer_nav_year']
+Admin.OthersGDSPackages.ManageAllotments.CalToDate.OK = .//button[@id='calToContainer_nav_submit']
+
+Admin.OthersGDSPackages.ManageAllotments.AssignAllotmentDropDown = .//select[@id='noOfRooms']
+Admin.OthersGDSPackages.ManageAllotments.Save = .//input[@id='sbmtSave']
+Admin.OthersGDSPackages.ManageAllotments.Cancel = .//input[@name='sbmtCancel']
+Admin.OthersGDSPackages.ManageAllotments.Message = .//td[@class='error']
+Admin.OthersGDSPackages.ManageAllotments.AllotmentCellForBGColor = .//tr[@class='alt']/td[3]
+Admin.OthersGDSPackages.ManageAllotments.Refresh = .//img[@id='imgRefreshAllotData']
