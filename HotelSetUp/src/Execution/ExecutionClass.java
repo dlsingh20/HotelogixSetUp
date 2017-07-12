@@ -16,9 +16,10 @@ public class ExecutionClass
 		GenericMethods.driver.manage().window().maximize();
 		//Login to HMSAdmine
 		
-		//========Test Line==========
+		//========Test Line 1==========
 		//Test====Test Line 2========
-		//Test====Test Line 2========
+		//Test====Test Line 3========
+		//Test====Test Line 4========
 		HMSAdmin.login();
 		HMSAdmin.navigateToRegistrationList();
 		
