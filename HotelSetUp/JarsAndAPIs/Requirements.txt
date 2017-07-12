@@ -1,0 +1,12 @@
+Requirement:
+- Departments
+- Source of Business
+- User deletion 
+- Add-ons 
+- Add a tax 
+- Pay Types 
+
+
+- TA 
+- Corporate 
+- POS Point 
