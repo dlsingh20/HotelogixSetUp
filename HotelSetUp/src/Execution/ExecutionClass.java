@@ -14,10 +14,10 @@ public class ExecutionClass
 		//To Launch Browser and Launch URL
 		GenericMethods.lounchBrowserAndUrl("ff", Constants.URLHmsAdmin);
 		GenericMethods.driver.manage().window().maximize();
-		
 		//Login to HMSAdmine
 		
 		//========Test Line==========
+		//Test====Test Line 2========
 		HMSAdmin.login();
 		HMSAdmin.navigateToRegistrationList();
 		
