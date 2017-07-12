@@ -10,9 +10,11 @@ public class Constants
 	public static final String URLHmsAdmin ="http://hotelogix.stayezee.com/hmsadmine";
 	//public static final String URLHmsAdmin ="https://staygrid.com/hmsadmine/login/login/";
 	
-	public static final String Path_TestData = "E://HotelogixSetUp//DataSheet.xlsx";
+	public static final String Path_TestData = "E://Software//LocalRepositorySetUp//HotelSetUp//JarsAndAPIs//DataSheet.xlsx";
+	
 	public static final String File_TestData = "DataSheet.xlsx";
-	public static final String Path_OR = "E://HotelogixSetUp//HotelSetUp//src//Configuration//OR.txt";
+	public static final String Path_OR = "E://Software//LocalRepositorySetUp//HotelSetUp//src//Configuration//OR.txt";
+	
 	
 	public static final String Sheet_RunFor = "RunFor";
 	public static final String Sheet_HotelIDs = "HotelIDs";
